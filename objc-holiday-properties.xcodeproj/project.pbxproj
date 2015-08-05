@@ -10,6 +10,7 @@
 		049E537B001E20A52FB22CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B73D6D1C8F6D1321674ACC /* main.m */; };
 		0AEC3F2B2D35D1B5CF488093 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = F6D5CC6960DA9AFD793B2D11 /* LaunchScreen.xib */; };
 		103BB483D247D626BDE18A71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C70E987219CFF23038D7A /* Foundation.framework */; };
+		4DC6590B1B727B0B0040D00B /* FISAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6590A1B727B0B0040D00B /* FISAppDelegateSpec.m */; };
 		546766F907311642B94A5C3F /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C2B2F603313112B8EA78F9 /* libPods-unit_tests.a */; };
 		72344446F31CDF68C2487429 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41196348C280583B8B4EA245 /* Images.xcassets */; };
 		B50CB8BF305FB7A5601D529C /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B9F834FC3901A5FBA6FA9 /* FISAppDelegate.m */; };
@@ -33,6 +34,7 @@
 		3B5398245722B893044705D6 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		403B9F834FC3901A5FBA6FA9 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		41196348C280583B8B4EA245 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4DC6590A1B727B0B0040D00B /* FISAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegateSpec.m; sourceTree = "<group>"; };
 		52B208305EA6FE6C09966441 /* objc-holiday-properties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objc-holiday-properties.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67091242FD6B90023535D840 /* objc-holiday-properties-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objc-holiday-properties-Prefix.pch"; sourceTree = "<group>"; };
 		837C70E987219CFF23038D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -105,6 +107,7 @@
 		54992E2B4DD6C2C7C5239E33 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				4DC6590A1B727B0B0040D00B /* FISAppDelegateSpec.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC6590B1B727B0B0040D00B /* FISAppDelegateSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
