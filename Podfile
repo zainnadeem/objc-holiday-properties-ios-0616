@@ -11,7 +11,4 @@ target :unit_tests, :exclusive => true do
 
   pod 'Specta', '~> 1.0'
   pod 'Expecta', '~> 1.0'
-  pod 'OCMockito', '~> 1.0'
-  pod 'OHHTTPStubs', '~> 4.0'
-  pod 'Swizzlean', '~> 0.2'
 end
