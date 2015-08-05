@@ -8,11 +8,6 @@
 
 #import "FISAppDelegate.h"
 
-@interface FISAppDelegate ()
-
-@end
-
-
 @implementation FISAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -56,7 +51,5 @@
     
     [self.database[season][holiday] addObject:supply];
 }
-
-
 
 @end
