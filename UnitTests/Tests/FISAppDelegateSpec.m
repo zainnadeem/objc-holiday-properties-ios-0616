@@ -1,10 +1,4 @@
-//
 //  FISAppDelegateSpec.m
-//  objc-holiday-properties
-//
-//  Created by Mark Murray on 8/5/15.
-//  Copyright 2015 The Flatiron School. All rights reserved.
-//
 
 #import "Specta.h"
 #define EXP_SHORTHAND
@@ -117,6 +111,12 @@ describe(@"FISAppDelegate", ^{
             expect([appDelegate holiday:@"Christmas Day"
                              isInSeason:@"Summer"]).to.beFalsy();
         });
+        
+        
+        it(@"returns NO when the 'season' argument is not a valid key", ^{
+            expect([appDelegate holiday:@"Christmas Day"
+                             isInSeason:@"Christmas"]).to.beFalsy();
+        });
     });
     
     describe(@"4 supply:isInHoliday:inSeason:", ^{
@@ -138,6 +138,17 @@ describe(@"FISAppDelegate", ^{
                               inSeason:@"Winter"]).to.beFalsy();
         });
         
+        it(@"returns NO when the 'season' argument is not a valid key", ^{
+            expect([appDelegate supply:@"sunscreen"
+                           isInHoliday:@"Christmas Day"
+                              inSeason:@"Christmas"]).to.beFalsy();
+        });
+        
+        it(@"returns NO when the 'holiday' argument is not a valid key", ^{
+            expect([appDelegate supply:@"boxing gloves"
+                           isInHoliday:@"Boxing Day"
+                              inSeason:@"Winter"]).to.beFalsy();
+        });
     });
     
     
@@ -164,10 +175,9 @@ describe(@"FISAppDelegate", ^{
         
         it (@"returns the database with President's Day not added as a key to another season", ^{
             NSString *presidentsDay = @"President's Day";
-            NSString *winter = @"Winter";
             
             [appDelegate addHoliday:presidentsDay
-                           toSeason:winter         ];
+                           toSeason:@"Winter"      ];
             
             expect([appDelegate.database[@"Spring"] allKeys]).toNot.contain(presidentsDay);
         });
