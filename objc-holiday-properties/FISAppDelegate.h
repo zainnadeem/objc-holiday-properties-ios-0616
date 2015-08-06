@@ -12,8 +12,6 @@
  
  */
 
-@property (strong, nonatomic) NSDictionary *database;
-
 - (NSArray *)holidaysInSeason:(NSString *)season;
 
 - (NSArray *)suppliesInHoliday:(NSString *)holiday
