@@ -1,14 +1,14 @@
 source 'https://github.com/CocoaPods/Specs'
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 # Add Application pods here
 
 
-target :unit_tests, :exclusive => true do
+target 'UnitTests' do
   inhibit_all_warnings!
-  link_with 'UnitTests'
 
-  pod 'Specta', '~> 1.0'
-  pod 'Expecta', '~> 1.0'
+
+  pod 'Specta'
+  pod 'Expecta'
 end

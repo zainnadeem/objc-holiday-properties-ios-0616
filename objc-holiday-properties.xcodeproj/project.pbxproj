@@ -11,9 +11,9 @@
 		0AEC3F2B2D35D1B5CF488093 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = F6D5CC6960DA9AFD793B2D11 /* LaunchScreen.xib */; };
 		103BB483D247D626BDE18A71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C70E987219CFF23038D7A /* Foundation.framework */; };
 		4DC6590B1B727B0B0040D00B /* FISAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6590A1B727B0B0040D00B /* FISAppDelegateSpec.m */; };
-		546766F907311642B94A5C3F /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C2B2F603313112B8EA78F9 /* libPods-unit_tests.a */; };
 		72344446F31CDF68C2487429 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41196348C280583B8B4EA245 /* Images.xcassets */; };
 		B50CB8BF305FB7A5601D529C /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B9F834FC3901A5FBA6FA9 /* FISAppDelegate.m */; };
+		BC142994F38CB6D1389DF8D4 /* libPods-UnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2BF6C0266FE9BF3FE691DB /* libPods-UnitTests.a */; };
 		D6CEEB99BF26FDD218155B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0A54C36E1C12BFB75862C4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E2BF6C0266FE9BF3FE691DB /* libPods-UnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFBFB3CDC3FA864651AE061 /* Pods-UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		26A462459A1A3B05B320B45C /* objc-holiday-properties-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "objc-holiday-properties-Info.plist"; sourceTree = "<group>"; };
+		299A264F6CAD8D7400F9A864 /* Pods-UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		313D95AA58E3411777EA71FC /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		3A0A54C36E1C12BFB75862C4 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3B5398245722B893044705D6 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
@@ -38,10 +41,7 @@
 		52B208305EA6FE6C09966441 /* objc-holiday-properties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objc-holiday-properties.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67091242FD6B90023535D840 /* objc-holiday-properties-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objc-holiday-properties-Prefix.pch"; sourceTree = "<group>"; };
 		837C70E987219CFF23038D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A2EAAA0E7185F6B8A66C8143 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
-		ACDACC2085296FB034D24886 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7CC8F3B426047A17D5631B5 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
-		B9C2B2F603313112B8EA78F9 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD384CDB97BEF0FAA66C3727 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B73D6D1C8F6D1321674ACC /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F6D5CC6960DA9AFD793B2D11 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546766F907311642B94A5C3F /* libPods-unit_tests.a in Frameworks */,
+				BC142994F38CB6D1389DF8D4 /* libPods-UnitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,15 +95,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		466C702A88527BD0CEB203A4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A2EAAA0E7185F6B8A66C8143 /* Pods-unit_tests.release.xcconfig */,
-				ACDACC2085296FB034D24886 /* Pods-unit_tests.debug.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		54992E2B4DD6C2C7C5239E33 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +120,15 @@
 			path = UnitTests;
 			sourceTree = "<group>";
 		};
+		AD0018157B3817CF61B0A948 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AFBFB3CDC3FA864651AE061 /* Pods-UnitTests.release.xcconfig */,
+				299A264F6CAD8D7400F9A864 /* Pods-UnitTests.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B0BF76CFA23B61C9C0033A6A /* objc-holiday-properties */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +147,7 @@
 				A8F9E1C733A37F084A9A5DEF /* UnitTests */,
 				F14595B391C2F672DDFBAF0E /* Frameworks */,
 				101E33F55BC0FA5F571AF182 /* Products */,
-				466C702A88527BD0CEB203A4 /* Pods */,
+				AD0018157B3817CF61B0A948 /* Pods */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				89C76D55337C1326A0BA56E1 /* iOS */,
-				B9C2B2F603313112B8EA78F9 /* libPods-unit_tests.a */,
+				0E2BF6C0266FE9BF3FE691DB /* libPods-UnitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,11 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E04060C07FE5915D8B64CE11 /* Build configuration list for PBXNativeTarget "UnitTests" */;
 			buildPhases = (
-				3A5AAF9D65CDD554E879B0D1 /* Check Pods Manifest.lock */,
+				89FE0E561A0381C441399E48 /* 📦 Check Pods Manifest.lock */,
 				23BA956FE94292EC4D955356 /* Sources */,
 				781B7D88CA015D529299E292 /* Frameworks */,
 				22419E8AC77724E2C56A636A /* Resources */,
-				CA636709F4B4032345C9A5AE /* Copy Pods Resources */,
+				108B05A83CF74B36135B85FD /* 📦 Embed Pods Frameworks */,
+				BAF51288B1EAEA126DFD180F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,14 +262,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3A5AAF9D65CDD554E879B0D1 /* Check Pods Manifest.lock */ = {
+		108B05A83CF74B36135B85FD /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89FE0E561A0381C441399E48 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,19 +292,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		CA636709F4B4032345C9A5AE /* Copy Pods Resources */ = {
+		BAF51288B1EAEA126DFD180F /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -325,7 +341,7 @@
 /* Begin XCBuildConfiguration section */
 		4D8DB5F4BD3FDE8A5F309C32 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2EAAA0E7185F6B8A66C8143 /* Pods-unit_tests.release.xcconfig */;
+			baseConfigurationReference = 1AFBFB3CDC3FA864651AE061 /* Pods-UnitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc-holiday-properties.app/objc-holiday-properties";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -501,7 +517,7 @@
 		};
 		D2AD68D968D5126763719F41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACDACC2085296FB034D24886 /* Pods-unit_tests.debug.xcconfig */;
+			baseConfigurationReference = 299A264F6CAD8D7400F9A864 /* Pods-UnitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc-holiday-properties.app/objc-holiday-properties";
 				FRAMEWORK_SEARCH_PATHS = (
